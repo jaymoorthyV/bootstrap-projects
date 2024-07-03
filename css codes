@@ -1,0 +1,108 @@
+/* Global Styles */
+body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+      margin: 0;
+      padding: 0;
+  }
+  
+  a {
+      text-decoration: none;
+      color: inherit;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+      background-color: #007bff;
+  }
+  
+  .navbar .navbar-brand,
+  .navbar .nav-link {
+      color: #fff;
+  }
+  
+  .navbar .nav-link:hover {
+      color: #ffc107;
+  }
+  
+  /* Hero Section Styles */
+  .jumbotron {
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 150px 0;
+      margin-bottom: 0;
+  }
+  
+  .jumbotron .btn-primary {
+      background-color: #ffc107;
+      border-color: #ffc107;
+  }
+  
+  .jumbotron .btn-primary:hover {
+      background-color: #e0a800;
+      border-color: #e0a800;
+  }
+  
+  /* Services Section Styles */
+  #services {
+      padding: 50px 0;
+  }
+  
+  #services .card {
+      border: none;
+      transition: transform 0.2s;
+  }
+  
+  #services .card:hover {
+      transform: scale(1.05);
+  }
+  
+  #services .card img {
+      height: 200px;
+      object-fit: cover;
+  }
+  
+  /* Testimonials Section Styles */
+  #testimonials {
+      padding: 50px 0;
+      background-color: #f5f5f5;
+  }
+  
+  #testimonials .media img {
+      width: 64px;
+      height: 64px;
+      object-fit: cover;
+      border-radius: 50%;
+  }
+  
+  /* Footer Styles */
+  .footer {
+      background-color: #343a40;
+      color: #fff;
+      padding: 20px 0;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+  }
+  
+  .footer .text-muted {
+      color: #6c757d !important;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+      .jumbotron {
+          padding: 100px 0;
+      }
+  
+      .jumbotron h1 {
+          font-size: 2.5rem;
+      }
+  
+      .jumbotron p {
+          font-size: 1.2rem;
+      }
+  }
+  
